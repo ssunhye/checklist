@@ -1,0 +1,66 @@
+/* 공통으로 적용되어야할 css */
+@media (max-width: 700px) {
+  .main-container {
+    /* header와 footer 크기에 맞게 140 변경*/
+    min-height: calc(100vh - 155px);
+  }
+}
+
+.main-wrapper {
+  min-height: calc(100vh - 155px) !important;
+  display: block !important;
+  margin-left: 15%; /* 페이지 양옆 200px여백 -> 10% */
+  margin-right: 15%;
+  align-self: center;
+}
+
+.main-container {
+  /* height: calc(100% - 70px); /* 전체 높이 - 헤더 높이 */
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  position: relative;
+  min-height: calc(100vh - 155px);
+}
+
+/* 플로팅 버튼 CSS */
+.floating-button-list-wrapper {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.floating-button-wrapper {
+  width: 60px;
+  height: 60px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #FFEDED;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  margin-bottom: 15px;
+  cursor:pointer;
+}
+
+/* 최근 본 상품 CSS */
+#recent-product-btn {
+  width: 100%;
+  position: absolute;
+  margin-top: 10px;
+}
+
+/* 최상단 이동 버튼 CSS */
+#top-button-img {
+   border-radius: 50px;
+}
+
+
+
+/* @-webkit-keyframes recent-list {
+  0% {
+    right:100px;
+  }
+  100% {
+    right:300px;
+  }
+} */
