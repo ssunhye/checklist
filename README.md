@@ -149,6 +149,10 @@
 
 <br><br>
 
+#### 🔗 [시연시나리오](exec/시연시나리오.pdf)
+
+<br><br>
+
 ## 🥜 실행 가이드
 
 #### 💻 [포팅 매뉴얼](https://dandelion-leopon-581.notion.site/4dd8e0d678df4a3f80a2fa692f1e4508)
